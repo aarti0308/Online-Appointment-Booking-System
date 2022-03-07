@@ -38,7 +38,7 @@ function getDoctorday(val) {
 <body style="background-image:url(images/yellowpage.jpg)">
 	<div class="header">
 		<ul>
-			<li style="float:left;border-right:none"><a href="ulogin.php" class="logo"><img src="images/cal.png" width="30px" height="30px"><strong> Skylabs </strong>Appointment Booking System</a></li>
+			<li style="float:left;border-right:none"><a href="ulogin.php" class="logo"><img src="images/cal.png" width="30px" height="30px"><strong> Patient Scheduler </strong>Appointment Booking System</a></li>
 			<li><a href="cover.php">Home</a></li>
 		</ul>
 	</div>

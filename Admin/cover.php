@@ -4,13 +4,13 @@
 <link rel="stylesheet" href="main.css">
 			<div class="header">
 				<ul>
-					<li style="float:left;border-right:none"><a href="cover.php" class="logo"><img src="cal.png" width="30px" height="30px"><strong> Skylabs </strong>Appointment Booking System</a></li>
+					<li style="float:left;border-right:none"><a href="cover.php" class="logo"><img src="cal.png" width="30px" height="30px"><strong> Patient Scheduler </strong>Appointment Booking System</a></li>
 					<li><a href="locateus.php">Locate Us</a></li>
 					<li><a href="#home">Home</a></li>
 				</ul>
 			</div>
 			<div class="center">
-				<h1>Skylabs</h1><br>
+				<h1>Patient Scheduler</h1><br>
 				<p style="text-align:center;color:black;font-size:30px;top:35%">Online Appointment Booking System</p><br>
 				<button onclick="document.getElementById('id01').style.display='block'" style="position:absolute;top:50%;left:50%">Login</button>
 				
