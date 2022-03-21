@@ -56,7 +56,7 @@ function newUser()
 		$email=$_POST['email'];
 		$username=$_POST['username'];
 		$password=$_POST['pwd'];
-		$prepeat=$_POST['pwdr'];
+	    $prepeat=$_POST['pwdr'];
 		$sql = "INSERT INTO Patient (Name, Gender, DOB,Contact,Email,Username,Password) VALUES ('$name','$gender','$dob','$contact','$email','$username','$password') ";
 
 	if (mysqli_query($conn, $sql)) 
@@ -73,7 +73,7 @@ function newUser()
 function checkusername()
 {
 	include 'dbconfig.php';
-	$usn=$_POST['username'];
+	$username=$_POST['username'];
 	$sql= "SELECT * FROM Patient WHERE Username = '$username'";
 
 	$result=mysqli_query($conn,$sql);

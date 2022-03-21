@@ -69,7 +69,7 @@ function getManager(val) {
 	
 </ul>
 </h2>
-<center><h1>REMOVE MANAGER FROM A CLINIC</h1><hr>
+<center><h1>DELETE MANAGER FROM A CLINIC</h1><hr>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
 <label style="font-size:20px" >City:</label>
 		<select name="city" id="city-list" class="demoInputBox"  onChange="getState(this.value);">

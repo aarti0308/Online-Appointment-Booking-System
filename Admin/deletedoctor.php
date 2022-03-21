@@ -66,7 +66,7 @@ Select Name:<br><?php
 				<option value="<?php echo $row["DID"]; ?>"><?php echo "(DID= $row[DID]) Dr. ".$row["Name"]; ?></option>
 				<?php
 					}
-					}
+					}          
 				?>
 				</select></center>
 				
