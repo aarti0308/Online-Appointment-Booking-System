@@ -100,7 +100,7 @@ function checkcid()
 
 	$result=mysqli_query($conn,$sql);
 
-		if(mysqli_num_rows($result)!=true)
+		if(mysqli_num_rows($result)!=0)
        {
 			echo"<b><br>CID already exists!!";
        }
