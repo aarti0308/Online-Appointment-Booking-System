@@ -57,7 +57,7 @@
   <br>
   DOB: <input type="date" name="dob" required>
   <br>
-  Contact no.: <input type="number" name="contact" maxlength="10" minlength="10" required>
+  Contact no.: <input type="tel" name="contact" maxlength="10" minlength="10" required>
   <br>
   Address: <input type="text" name="address" required>
   <br>
