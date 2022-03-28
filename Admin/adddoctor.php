@@ -61,7 +61,7 @@
   <br>
   Specialization:<input type="text" name="specialization" required>
   <br>
-  Contact no.: <input type="number" name="contact" maxlength="10" minlength="10" required>
+  Contact no.: <input type="tel" name="contact" required> 
   <br>
   Address: <input type="text" name="address" required>
   <br>
