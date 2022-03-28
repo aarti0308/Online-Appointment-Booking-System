@@ -160,7 +160,7 @@ img.avatar {
     padding: 16px;
 }
 .sucontainer{
-	padding: 12px;
+	padding: inherit;
 	position:absolute;
 	left:30%;
 	right:30%;

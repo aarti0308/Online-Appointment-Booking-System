@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="main.css">
@@ -35,7 +36,7 @@ function getDoctorday(val) {
 	});
 }
 </script>
-<body style="background-image:url(images/yellowpage.jpg)">
+<body style="background-image:url(images/yellowpage.png)">
 	<div class="header">
 		<ul>
 			<li style="float:left;border-right:none"><a href="ulogin.php" class="logo"><img src="images/cal.png" width="30px" height="30px"><strong> Patient Scheduler </strong>Appointment Booking System</a></li>
@@ -43,8 +44,8 @@ function getDoctorday(val) {
 		</ul>
 	</div>
 	<form action="locateus.php" method="post">
-	<div class="sucontainer" style="background-image:url(images/yellowpage.jpg)">
-		<ul style="background-image:url(images/yellowpage.jpg)">			
+	<div class="sucontainer" style="background-image:url(images/yellowpage.png)">
+		<ul style="background-image:url(images/yellowpage.png)">			
 			<label><b>Search Doctor</b></label>
 			<input type="text" name="doctorname" placeholder="Enter Doctor Name"></input>
 			<button type="submit" style="position:center" name="subd" value="Submit">Submit</button>
